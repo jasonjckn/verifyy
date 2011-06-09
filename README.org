@@ -15,7 +15,10 @@ Production Dashboard: [[https://appengine.google.com/]]
 
 
 * FAQ
-+ How do I add static client side stuff? just dump your HTML/etc into ../static/ and accessible from http://localhost:8000/static/filename.html
-+ How do I add frontend/backend stuff? you'll need to learn django. 
++ How do I add static client side stuff? 
+    just dump your HTML/etc into ../static/ and accessible from http://localhost:8000/static/filename.html
++ How do I add frontend/backend stuff? 
+    you'll need to learn django. 
     The best way is to read tutorials https://docs.djangoproject.com/en/dev/intro/tutorial01/
-+ How do I deploy? python manage.py deploy
++ How do I deploy? 
+    python manage.py deploy
