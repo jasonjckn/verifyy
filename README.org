@@ -1,20 +1,21 @@
 
 
 * Links
-Production Website: http://theverifyy.appspot.com/
-Production Dashboard: https://appengine.google.com/
+Production Website: [[http://theverifyy.appspot.com/]]
+
+Production Dashboard: [[https://appengine.google.com/]]
 
 * Setup Instructions:
-1) http://code.google.com/appengine/downloads.html#Google_App_Engine_SDK_for_Python
+1) [[http://code.google.com/appengine/downloads.html#Google_App_Engine_SDK_for_Python]]
 2)  git clone git@github.com:jasonjckn/verifyy 
 
 * Run Development Server:
 1) python manage.py runserver
-2) http://localhost:8000 <-- hello world
+2) [[http://localhost:8000]] <-- hello world
 
 
 * FAQ
-+ How do I add static client side stuff? just dump your HTML/etc into ../static/* and accessible from http://localhost:8000/static/*
++ How do I add static client side stuff? just dump your HTML/etc into ../static/ and accessible from http://localhost:8000/static/filename.html
 + How do I add frontend/backend stuff? you'll need to learn django. 
     The best way is to read tutorials https://docs.djangoproject.com/en/dev/intro/tutorial01/
 + How do I deploy? python manage.py deploy
